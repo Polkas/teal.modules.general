@@ -133,6 +133,7 @@ tm_outliers <- function(label = "Outliers Module",
                         post_output = NULL) {
   message("Initializing tm_outliers")
 
+  
   # Normalize the parameters
   if (inherits(outlier_var, "data_extract_spec")) outlier_var <- list(outlier_var)
   if (inherits(categorical_var, "data_extract_spec")) categorical_var <- list(categorical_var)
